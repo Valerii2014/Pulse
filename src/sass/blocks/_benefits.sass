@@ -1,0 +1,43 @@
+.benefits
+    min-height: 473px
+    color: #000
+    padding: 73px 0 64px 0
+    background-color: #F6F6F6
+    &__title
+        text-align: center
+        text-transform: uppercase
+        font-weight: 700
+        font-size: 30px
+        line-height: 30px
+
+    &__cards
+        margin-top: 60px
+        width: 100%
+        display: flex
+        justify-content: space-between
+    &__card
+        width: 265px
+        display: flex
+        flex-direction: column
+        align-items: center
+    &__icon
+        width: 70px
+        height: 70px
+        &_animated
+            animation: heartbeat 1s ease infinite
+            &:hover
+                animation-play-state: paused
+    &__card-title
+        margin-top: 35px
+        font-weight: 700
+        font-size: 18px
+        line-height: 29px
+        text-align: center
+    &__card-text
+        margin-top: 20px
+        font-weight: 300
+        font-size: 14px
+        line-height: 18px
+        text-align: center
+    &__red-text
+        color: red
